@@ -1,0 +1,33 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ButtonF">
+			<method name="LoadMenu"/>
+			<method name="LoadMenu"/>
+		</type>
+		<type fullname="ButtonFunctions">
+			<method name="GoToInstruction"/>
+			<method name="LoadSettings"/>
+			<method name="PlayGame"/>
+		</type>
+		<type fullname="PauseResume">
+			<method name="LoadMenu"/>
+			<method name="LoadMenu"/>
+			<method name="LoadMenu"/>
+			<method name="LoadMenu"/>
+			<method name="Pause"/>
+			<method name="Pause"/>
+			<method name="Pause"/>
+			<method name="Pause"/>
+			<method name="Resume"/>
+			<method name="Resume"/>
+			<method name="Resume"/>
+			<method name="Resume"/>
+		</type>
+		<type fullname="volumeslider">
+			<method name="ChangeVolume"/>
+		</type>
+		<type fullname="WinButtoins">
+			<method name="LoadMenu"/>
+		</type>
+	</assembly>
+</linker>
